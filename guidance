@@ -1,0 +1,14 @@
+go mod init go_tutorial
+go get go.mongodb.org/mongo-driver/mongo
+go run main.go
+
+
+add to github
+
+echo "# gocloth" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/banhcuonbathanh/gocloth.git
+git push -u origin main
