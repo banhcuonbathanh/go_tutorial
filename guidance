@@ -1,14 +1,22 @@
+git checkout -b feature/struct
+git push origin feature/struct
+
+
+//----------------------------
 go mod init go_tutorial
 go get go.mongodb.org/mongo-driver/mongo
 go run main.go
 
-
 add to github
 
-echo "# gocloth" >> README.md
+echo "# go_tutorial" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
-git remote add origin https://github.com/banhcuonbathanh/gocloth.git
+git remote add origin https://github.com/banhcuonbathanh/go_tutorial.git
 git push -u origin main
+
+
+//--------------------------------- connect to mongo db
+go get go.mongodb.org/mongo-driver/mongo
